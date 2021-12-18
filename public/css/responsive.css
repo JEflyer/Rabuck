@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	
+	.main-header img {
+		height: 35px;
+	}
+
+
+
+
+
+
+	
+}
+
+/*Small devices (landscape Tablet, 992 and up)*/	
+@media (max-width: 991.98px) { 
+	
+	.mobile-header{
+		display: block;
+	}
+
+	.main-header{
+		display: none;
+	}
+
+	.mint-wall .float-end{
+		float: inherit!important;
+	}
+	
+	div.mint-eth-net {
+		float: inherit!important; 
+		padding-right: 0px; 
+		text-align: center;
+	}
+	
+	.marg2{
+		margin-top: -200px;
+	}
+
+	.about--us{
+		margin-top: -150px;
+	}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/	
+@media (max-width: 767.98px) { 
+	
+	.marg{
+		margin-top: -80px;
+	}
+
+	.marg2{
+		margin-top: -100px;
+	}
+	
+	.roadmap-area {
+		display: table;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	
+	.about--us{
+		margin-top: -100px;
+	}
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+
+	.hero-section h2 {
+		font-size: 30px;
+	}	
+
+	.hero-section p {
+		font-size: 16px;
+	}	
+
+	.hero-section button{
+		font-size: 17px;
+	}
+
+	.marg{
+		margin-top: -50px;
+	}
+
+	.section-header{
+		font-size: 30px;
+	}
+
+	.about--us{
+		margin-top: -50px;
+	}
+
+	
+}

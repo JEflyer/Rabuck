@@ -1,0 +1,569 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	src: url("fonts/OpenSans-Regular.ttf");
+	font-family: "opensans-regular";
+}
+
+@font-face{
+	src: url("fonts/AbrilFatface-Regular.ttf");
+	font-family: "AbrilFatface";
+}
+
+@font-face{
+	src: url("fonts/NotoSerif-Bold.ttf");
+	font-family: "NotoSerif";
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "opensans-regular";
+}
+
+ul, ol{
+	list-style: none;
+}
+
+body{
+	background-color: #000000;
+}
+
+/* Start of Header Section */
+
+header{
+	position: fixed;
+	z-index: 99999;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	padding: 10px 0px;
+	background-color: #000;
+}
+
+.section-container{
+	max-width: 1500px;
+	margin: auto;
+}
+
+.main-header img{
+	height: 40px;
+}
+
+.main-header ul.d-flex{
+	align-items: center;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width: 100%;
+}
+
+.main-header a{
+	font-size: 25px;
+	font-family: "AbrilFatface";
+	color: white;
+	padding: 15px;
+	transition: 0.5s;
+}
+
+.main-header a:hover{
+	color: #FB00B3;
+}
+
+.mobile-header{
+	display: none;
+}
+
+.mobile-header img{
+	height: 40px;
+}
+
+.mobile-header button span{
+	font-size: 25px;
+	color: white;
+}
+
+.mobile-header .nav {
+    flex-direction: column;
+}
+
+.mobile-header .offcanvas-header button{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-size: 25px;
+}
+
+.mobile-header .offcanvas-header button span{
+	color: #FB00B3;
+	opacity: 0.5;
+	transition: 0.5s;	
+}
+
+.mobile-header .offcanvas-header button span:hover{
+	opacity: 1;
+}
+
+.mobile-header .offcanvas.show {
+    background-color: #222;
+}
+
+#offcanvasNavbarLabel{
+	font-family: "AbrilFatface";
+}
+
+.mobile-header .offcanvas-body a{
+	font-size: 20px;
+	font-family: "AbrilFatface";
+	color: white;
+	transition: 0.5s;
+}
+
+.mobile-header .offcanvas-body a:hover{
+	color: #FB00B3;
+}
+
+/* Body Section */
+
+.main-section{
+	margin-top: 112px;
+}
+
+.hero-image img{
+	width: 100%;
+}
+
+.hero-section .row{
+	align-items: center;
+}
+
+.hero-section{
+	padding: 15px;
+}
+
+.hero-section h2{
+	color: #FB00B3;
+	font-size: 40px;
+	font-weight: 600;
+	font-family: "AbrilFatface";
+}
+
+.hero-section p{
+	color: white;
+	font-size: 18px;
+}
+
+.hero-section button{
+	border: 1px solid #FB00B3;
+	background-color: transparent;
+	font-family: "NotoSerif";
+	padding: 12px 25px;
+	font-size: 20px;
+	color: #FB00B3;
+	transition: 0.5s;
+	font-weight: 600;
+}
+
+.hero-section button:hover{
+	background-color: #FB00B3;
+	color: #000;
+}
+
+.fluid-marg img{
+	width: 100%;
+}
+
+.marg{
+	margin-top: -100px;
+}
+
+div.main-body{
+	max-width: 1400px;
+	margin: auto;
+}
+
+div.mint-banner{
+	width: 100%;
+	height: 850px;
+	background-position: center;
+	background-image: url("images/banner/DNA Banner dapp1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+div.content-mint p{
+	max-width: 1000px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+	font-weight: 600;
+	padding: 0px 15px;
+}
+
+div.mint-gif{
+	width: 100%;
+	height: 400px;
+	background-position: center;
+	background-image: url("images/gif/anik.gif");
+	background-size: contain;
+	background-repeat: no-repeat;	
+}
+
+
+div.mint-wall{
+	width: 100%;
+	padding: 20px;
+	border: 2px solid #FB00B3;
+	border-radius: 10px;
+}
+
+div.mint-wall-main button{
+	background-color: transparent;
+	border: 1px solid #FB00B3;
+	outline: none;
+	color: #FB00B3;
+	margin: auto;
+	display: block;
+	font-family: "NotoSerif";
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	padding: 10px;
+	transition: 0.5s;
+}
+
+div.mint-wall-main button:hover{
+	color: #000;
+	background-color: #FB00B3;
+	border: 1px solid #FB00B3;
+}
+
+div.mint-wall-main{
+	padding: 50px 20px;
+}
+
+div.quantity-mint p{
+	font-size: 14px;
+	color: #64d7ec;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div.quatinty-mint-control button{
+	display: inline;
+	width: 35px;
+	height: 30px;
+	padding: 0px;
+	background-color: #212529!important;
+	color: white;
+	border: none!important;
+}
+
+div.quatinty-mint-control button:nth-child(5){
+	margin-left: -5px;
+}
+
+
+div.quatinty-mint-control button:nth-child(3){
+	margin-right: -5px;
+}
+
+div.quatinty-mint-control input{
+	height: 30px;
+	margin: 0px;
+	width: 100%;
+	padding: 0px;
+	text-align:	center;
+}
+
+div.quatinty-mint-control{
+	display: flex;
+}
+
+div.mint-dna p{
+	font-size: 15px;
+	font-weight: 800;
+	text-align: center;
+	color: white;
+}
+
+div.mint-dna h6{
+	font-family: "NotoSerif";
+	font-weight: 500;
+	font-size: 17px;
+	color: white;
+	text-align: center;
+	margin-top: 3px;
+}
+
+div.mint-eth-net{
+    float: right;
+	padding-right: 70px;
+}
+
+div.mint-eth-net button{
+	font-size: 12px;
+	padding: 8px;
+	font-family: "NotoSerif";
+	margin-bottom: 0px;
+}
+
+div.mint-eth-net h5{
+	font-size: 15px;
+	color: white;
+	padding-bottom: 10px;
+	margin: 0px;
+	font-weight: 700;
+}
+
+div.mint-eth-net h6{
+	color: #64d7ec;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: "AbrilFatface";
+	text-align: center;
+	padding-top: 10px;
+}
+
+div.mint-eth-net h6 span{
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+div.mint-price label{
+	color: #FB00B3;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+}
+
+div.mint-price h6{
+	font-weight: 800;
+	text-transform: uppercase;
+	font-family: "NotoSerif";
+	color: #64d7ec;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+div.mint-price h2{
+	font-size: 15px;
+	font-family: "AbrilFatface";
+	text-align: center;
+	font-weight: 500;
+	color: white;
+}
+
+div.mint-price h2 span{
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+.section-header{
+	font-size: 50px;
+	color: #FB00B3;
+	font-family: "AbrilFatface";
+	font-weight: 800;
+	text-align: center;
+}
+
+/* Roadmap */
+
+.roadmap-area{
+	margin-bottom: 30px;
+}
+
+.roadmap-area h2{
+	font-family: "NotoSerif";
+	font-size: 28px;
+	color: #64d7ec;
+}
+
+.roadmap-area ul{
+	list-style: disc;
+	margin: auto;
+}
+
+.roadmap-area ul li{
+	padding-bottom: 15px;
+	font-size: 16px;
+	color: white;
+}
+
+.marg2{
+	margin-top: -300px;
+}
+
+/* About us */
+
+.about--us{
+	margin-top: -200px;
+}
+
+div.team-profile-box{
+	display: flex;
+	flex-wrap: wrap;
+    box-sizing: border-box;
+	justify-content: center;
+	align-content: space-between;
+}
+
+div.team-card{
+	width: 195px;
+	margin: 20px;
+}
+
+div.team-image{
+	width: 100%;
+	height: 190px;
+}
+
+div.team-image img{
+	width: 100%;
+	height: 100%;
+}
+
+div.profile-des h2{
+	font-size: 22px;
+	font-family: "NotoSerif";
+	color: #64d7ec;
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+div.profile-des h5{
+	font-size: 20px;
+	color: gray;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.about-us-section img{
+	width: 100%;
+}
+
+.about-us-section{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.about--us-content h1{
+	font-size: 25px;
+	font-family: "NotoSerif";
+	color: #64d7ec;
+	margin: 0px;
+	padding-bottom: 15px;
+}
+
+.about--us-content p{
+	color: white;
+}
+
+.about--us-content button{
+	border: 1px solid #FB00B3;
+    background-color: transparent;
+    font-family: "NotoSerif";
+    padding: 12px 25px;
+    font-size: 16px;
+    color: #FB00B3;
+    transition: 0.5s;
+    font-weight: 600;	
+}
+
+.about--us-content button:hover{
+	color: #000;
+    background-color: #FB00B3;
+    border: 1px solid #FB00B3;
+}
+
+/* footer */
+
+footer{
+	padding: 15px 0px;
+	border-top: 1px solid #FB00B3;
+}
+
+footer h6{
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	font-family: "NotoSerif";
+}
+
+footer h3{
+	color: #00B014;
+	font-size: 30px;
+	font-family: "AbrilFatface";
+	text-align: center;
+}
+
+footer ul{
+	display: flex;
+	justify-content: center;
+}
+
+footer ul li{
+	margin: 5px 15px;
+	padding-bottom: 15px;
+}
+
+footer ul li a{
+	color: #FB00B3;
+	font-size: 30px;
+	transition: 0.5s;
+}
+
+footer ul li a:hover{
+	color: #FB00B3;
+	opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
